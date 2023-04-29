@@ -1,0 +1,30 @@
+form{
+    background-color: grey;
+    box-shadow: 4px 4px 4px black;
+    
+}
+fieldset{
+    width: fit-content;
+}
+body{
+    background-color: red;
+    
+}
+legend{
+    color:blue
+}
+label{
+    color:blueviolet
+}
+.languages{
+    color:aquamarine;
+    border: 2px dashed red;
+}
+.gender{
+    color:aquamarine;
+    border: 2px dashed red;
+}
+h1{
+    color:blue;
+    text-shadow: 4px 4px 4px blue;
+}

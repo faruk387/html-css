@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/CSS" href="formStyle.css"
+  </head>
+<body>
+ <center>
+
+
+ 
+    <h1>Techpro Education Student Registration Form</h1>
+  <fieldset>
+   
+   
+  <legend>Open An Account</legend>  <br> 
+  <form>
+<label>FullName</label><br>
+<div style="margin-top: 5px;"></div>
+<input type="text" placeholder="Firstname Lastname"><br>
+<div style="margin-top: 5px;"></div>
+<label>UserName</label><br>
+<div style="margin-top: 5px;"></div>
+<input type="text" placeholder="username123"><br>
+<div style="margin-top: 5px;"></div>
+<label>Password</label><br>
+<div style="margin-top: 5px;"></div>
+<input type="password" placeholder="password123"><br>
+<div style="margin-top: 5px;"></div>
+<label>Password Again</label><br>
+<div style="margin-top: 5px;"></div>
+<input type="password" placeholder="password123"><br>
+<div style="margin-top: 5px;"></div>
+<label>E-mail</label><br>
+<input type="password" placeholder="e-mail@cpm"><br>
+<div style="margin-top: 5px;"></div>
+<label>Languages</label><br>
+<div style="margin-top: 5px;"></div>
+<input type="checkbox">
+<label class="languages">English</label>
+<input type="checkbox">
+<label class="languages">Turkish</label>
+<input type="checkbox">
+<label class="languages" >Arabic</label>
+<input type="checkbox">
+<label class="languages">Spanish</label><br>
+<div style="margin-top: 5px;"></div>
+<label>Gender</label><br>
+<input name="gender" type="radio">
+<label class="gender">Male</label>
+<input name="gender" type="radio">
+<label class="gender">Female</label>
+<input name="gender" type="radio">
+<label class="gender">Others</label><br>
+<div style="margin-top: 5px;"></div>
+<label>Select Your Birtday</label><br>
+<div style="margin-top: 5px;"></div>
+<input type="date">
+<div style="margin-top: 5px;"></div>
+<label>Select Your Country</label><br>
+<div style="margin-top: 5px;"></div>
+<select>
+    <option disabled selected>Options</option>
+    <option>Germany</option>
+    <option>Turkey</option>
+    <option>USA</option>
+    <option>Japan</option>
+
+</select><br>
+<div style="margin-top: 5px;"></div>
+<label>Select Your Pet Colour</label><br>
+<div style="margin-top: 5px;"></div>
+<input type="color">
+<div style="margin-top: 5px;"></div>
+<label>Upload Your Image</label><br>
+<div style="margin-top: 5px;"></div>
+<input type="file">
+<div style="margin-top: 5px;"></div>
+<label>Phone Number</label><br>
+<div style="margin-top: 5px;"></div>
+<input placeholder="xxx-xxx-xxxx" type="tel"><br>
+<div style="margin-top: 5px;"></div>
+<label>About You</label><br>
+<div style="margin-top: 5px;"></div>
+<textarea name=""id=""cols="" rows="">Tell me about yourself:> </textarea>
+<div align="center"><input type="submit" value="Accept"></div>
+
+
+
+  </form>
+</fieldset>
+</center>
+<script>
+  ​
+          var actualUsername = "John";
+          var actualPassword = "John.123";
+  ​
+          var counter = 3;
+  ​
+          while (true) {
+              counter--;
+              var username = prompt("Enter Username");
+              var password = prompt("Enter Password");
+              if (username == actualUsername & password == actualPassword) {
+                  alert("You signed in succesfully");
+                  break;
+              } else {
+                  alert("Try again! You have " + counter + " time(s) try");
+              }
+  ​
+              if (counter == 0) {
+                  alert("Blocked");
+                  while (true) {
+  ​
+                  }
+              }
+          }
+  ​
+      </script>
+</body>
+</html>
